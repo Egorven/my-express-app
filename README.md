@@ -109,8 +109,11 @@ function api(method, url, data) {
 
 
 api('GET', '/api/songs');
+
 api('POST', '/api/songs', { title: "Test", artist: "Me", genre: "Indie" });
+
 api('PUT', '/api/songs/4', { title: "Updated", artist: "Me", genre: "Indie" });
+
 api('DELETE', '/api/songs/4');
 
 
