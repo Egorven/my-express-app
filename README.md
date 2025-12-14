@@ -42,8 +42,7 @@ curl -X PUT http://localhost:3000/api/songs/4 \
 
 Консоль браузера:
 
-1.
-fetch('/api/songs')
+1.fetch('/api/songs')
   .then(res => res.json())
   .then(console.log)
   .catch(console.error);
@@ -97,6 +96,8 @@ fetch('/api/songs')
 .catch(console.error);
 
 Консоль браузера(через функцию)
+
+
 function api(method, url, data) {
   const config = {
     method,
@@ -105,6 +106,8 @@ function api(method, url, data) {
   if (data) config.body = JSON.stringify(data);
   return fetch(url, config).then(r => r.json()).then(console.log).catch(console.error);
 }
+
+
 api('GET', '/api/songs');
 api('POST', '/api/songs', { title: "Test", artist: "Me", genre: "Indie" });
 api('PUT', '/api/songs/4', { title: "Updated", artist: "Me", genre: "Indie" });
