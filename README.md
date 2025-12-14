@@ -27,7 +27,9 @@ curl -X POST http://localhost:3000/api/songs \
 curl -X PUT http://localhost:3000/api/songs/4 \
   -H "Content-Type: application/json" \
   -d '{"title": "Wonderwall (Remastered)", "artist": "Oasis", "genre": "Britpop"}'
+  
   ИЛИ
+  
   curl -X POST http://localhost:3000/api/songs -H "Content-Type: application/json" -d '{"title": "Hey Jude", "artist": "The Beatles", "genre": "Classic Rock"}'
 
 <img width="553" height="97" alt="image" src="https://github.com/user-attachments/assets/d6fd3bac-9fbf-4cdf-a3e7-ae72f54bbd60" />
