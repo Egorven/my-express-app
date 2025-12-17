@@ -117,3 +117,34 @@ api('PUT', '/api/songs/4', { title: "Updated", artist: "Me", genre: "Indie" });
 api('DELETE', '/api/songs/4');
 
 
+Postman
+
+1. GET http://localhost:3000/api/songs
+
+<img width="430" height="456" alt="image" src="https://github.com/user-attachments/assets/e5e002a0-8c24-412b-bc35-c2ac5edfa8b4" />
+
+
+2.GET http://localhost:3000/api/songs?genre=Rock
+
+<img width="596" height="735" alt="image" src="https://github.com/user-attachments/assets/e5a10101-0b22-460a-bb47-0cbfed7802e1" />
+
+
+3.  <img width="527" height="709" alt="image" src="https://github.com/user-attachments/assets/3a99e382-034a-42d7-8cb1-4b9804eab3fb" />
+
+
+
+4. <img width="646" height="676" alt="image" src="https://github.com/user-attachments/assets/748c1f22-5ea9-4f36-b620-d7597a6003c5" />
+
+
+5. <img width="453" height="110" alt="image" src="https://github.com/user-attachments/assets/10289cc6-3401-4350-8606-e4f86574e2c3" />
+
+
+
+6. <img width="774" height="746" alt="image" src="https://github.com/user-attachments/assets/b580117e-1db0-402b-ad4f-4ff8646363d3" />
+
+
+
+
+7.<img width="375" height="292" alt="image" src="https://github.com/user-attachments/assets/53b35b01-57a1-4953-b6ea-b96ec5331af1" />
+
+ <img width="549" height="78" alt="image" src="https://github.com/user-attachments/assets/9fe7a3a9-a3a4-457e-accd-17de2b9401aa" />
